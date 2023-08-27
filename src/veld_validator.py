@@ -1,5 +1,5 @@
 
-print("module: validator")
+
 
 def validate(veld=None):
     if veld is None:
@@ -8,4 +8,4 @@ def validate(veld=None):
         print(f"valid: {veld}")
 
 if __name__ == "__main__":
-    validate("from validator module")
+    validate()
